@@ -15,9 +15,5 @@ export const AES_IV_SALT = process.env.AES_IV_SALT;
 export const AES_SECRET_KEY = process.env.AES_SECRET_KEY;
 export const AES_SECRET_SALT = process.env.AES_SECRET_SALT;
 
-export const EMAIL_HOST = process.env.EMAIL_HOST;
-export const EMAIL_USER = process.env.EMAIL_HOST;
-export const EMAIL_PASSWORD = process.env.EMAIL_PASSWORD;
-export const SMS_SERVICE_KEY = process.env.SMS_SERVICE_KEY;
 
 export default process.env;
