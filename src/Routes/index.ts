@@ -1,10 +1,9 @@
-import { Router } from "express"
-const router = Router()
+import { Router } from "express";
+const router = Router();
+import { successResponse } from "../Utils";
 
-import Auth from "./Auth"
-import Shop from "./Shop"
-
-router.use("/auth",Auth)
-router.use("/shop",Shop)
+router.use("/", (req, res) => {
+  successResponse(res, {}, "Ok");
+});
 
 export default router;
