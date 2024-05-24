@@ -15,5 +15,4 @@ export const AES_IV_SALT = process.env.AES_IV_SALT;
 export const AES_SECRET_KEY = process.env.AES_SECRET_KEY;
 export const AES_SECRET_SALT = process.env.AES_SECRET_SALT;
 
-
 export default process.env;
