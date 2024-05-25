@@ -7,9 +7,8 @@ type APIResponse<T> = {
 
 type User = {
     name: string;
-    age: number
 }
 
 export type Users = User[];
-
+//api/v1
 export type UsersResponse = APIResponse<Users>;
