@@ -25,7 +25,7 @@ router.get("/api", handler);
 
 ```typescript
 const getUser = async () => {
-  const res: UsersResponse = await fetch("api").then((res) => res.json());
+  const res: UsersResponse = await fetch("/api").then((res) => res.json());
   console.log(res.data);
 };
 ```
