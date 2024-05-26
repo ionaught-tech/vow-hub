@@ -33,7 +33,7 @@ router.use((_req: Request, res: CustomResponse<unknown>, next: NextFunction) => 
 });
 
 const handler: Handler<Users> = (_req, res) => {
-    const users = [{ name: "Hello" }]
+    const users = [{ name: "Kevin" }]
     res.success("Ok", users);
 };
 

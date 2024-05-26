@@ -14,7 +14,7 @@ interface CustomResponse<T, E = unknown> extends Response {
 type Handler<T> = (req: Request, res: CustomResponse<T>) => void;
 
 const handler: Handler<Users> = (_req, res) => {
-  const users = [{ name: "Hello" }];
+  const users = [{ name: "Kevin" }];
   res.success("Ok", users);
 };
 
