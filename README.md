@@ -1,6 +1,6 @@
 # VOW HUB
 
-Share APIs, TypeScript types, and contracts across projects.
+Share APIs contracts, TypeScript types, and much more across projects.
 
 ## Examples
 
